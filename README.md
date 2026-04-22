@@ -1,41 +1,64 @@
 # 🏝️ Treasure Island Game
 
-Welcome to **Treasure Island**, a simple text-based adventure game written in Python.  
-Your mission is to navigate through choices and find the hidden treasure… if you can survive! 💰
+Welcome to **Treasure Island**!  
+Your mission is simple: **find the treasure** 💰
 
 ---
 
-## 🎮 How the Game Works
+## 🎮 How to Play
 
-The game is decision-based. At each stage, you’ll be prompted to make a choice.  
-Your decisions will determine whether you win the treasure or meet a Game Over.
+Run the Python script and follow the prompts in the terminal.
 
----
-
-## 🧭 Game Flow
+You will make a series of choices:
 
 1. **Crossroad**
-   - Choose `"left"` or `"right"`
-   - Wrong choice leads to falling into a hole.
+   - Type `"left"` or `"right"`
 
-2. **Lake**
-   - Choose `"wait"` or `"swim"`
-   - Swimming results in being attacked by a trout.
+2. **Lake Decision** (if you chose left)
+   - Type `"wait"` to wait for a boat
+   - Type `"swim"` to swim across
 
-3. **Island House**
-   - Choose a door: `"red"`, `"yellow"`, or `"blue"`
-   - Each door leads to a different outcome:
-     - 🔴 Red → Fire (Game Over)
-     - 🔵 Blue → Beasts (Game Over)
-     - 🟡 Yellow → Treasure (You Win!)
+3. **Door Choice** (if you waited)
+   - Choose a door:
+     - `"red"` 🔥
+     - `"yellow"` 💰
+     - `"blue"` 🐍
 
 ---
 
-## 🧑‍💻 How to Run
+## 🏆 Winning Condition
 
-1. Make sure Python is installed on your system.
-2. Save the script as `main.py`
-3. Run the program:
+- Choose the correct path and door to find the treasure!
+- The correct path is:
+
+left → wait → yellow
+
+
+---
+
+## 💀 Game Over Scenarios
+
+- Falling into a hole
+- Attacked by a trout 🐟
+- Entering the wrong door (fire or beasts)
+- Choosing an invalid option
+
+---
+
+## ▶️ How to Run
+
+Make sure you have Python installed, then run:
 
 ```bash
-python main.py
+python your_script_name.py
+🧠 Features
+Simple text-based adventure game
+User input handling
+Conditional logic using if-else
+✨ Future Improvements
+Add more story paths
+Include graphics or GUI
+Add sound effects 🎵
+Track player score
+
+Enjoy the adventure and good luck finding the treasure! 🏴‍☠️
