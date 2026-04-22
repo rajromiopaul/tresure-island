@@ -34,8 +34,8 @@ Your decisions will determine whether you win the treasure or meet a Game Over.
 ## 🧑‍💻 How to Run
 
 1. Make sure Python is installed on your system.
-2. Save the script as `treasure_island.py`
+2. Save the script as `main.py`
 3. Run the program:
 
 ```bash
-python treasure_island.py
+python main.py
